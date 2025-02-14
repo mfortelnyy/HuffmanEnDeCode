@@ -1,4 +1,4 @@
-###**Huffman Encoding & Decoding Application**
+### **Huffman Encoding & Decoding Application**
 **A Windows Forms application for encoding and decoding text files using Huffman Coding, a lossless data compression algorithm.**
 
 📌 Overview
