@@ -1,0 +1,22 @@
+C:\Users\maksy\source\repos\HuffmanEnDeCode\HuffmanEnDeCode\bin\Debug\net6.0-windows\HuffmanEnDeCode.exe
+C:\Users\maksy\source\repos\HuffmanEnDeCode\HuffmanEnDeCode\bin\Debug\net6.0-windows\HuffmanEnDeCode.deps.json
+C:\Users\maksy\source\repos\HuffmanEnDeCode\HuffmanEnDeCode\bin\Debug\net6.0-windows\HuffmanEnDeCode.runtimeconfig.json
+C:\Users\maksy\source\repos\HuffmanEnDeCode\HuffmanEnDeCode\bin\Debug\net6.0-windows\HuffmanEnDeCode.dll
+C:\Users\maksy\source\repos\HuffmanEnDeCode\HuffmanEnDeCode\bin\Debug\net6.0-windows\HuffmanEnDeCode.pdb
+C:\Users\maksy\source\repos\HuffmanEnDeCode\HuffmanEnDeCode\obj\Debug\net6.0-windows\HuffmanEnDeCode.Form1.resources
+C:\Users\maksy\source\repos\HuffmanEnDeCode\HuffmanEnDeCode\obj\Debug\net6.0-windows\HuffmanEnDeCode.Properties.Resources.resources
+C:\Users\maksy\source\repos\HuffmanEnDeCode\HuffmanEnDeCode\obj\Debug\net6.0-windows\HuffmanEnDeCode.csproj.GenerateResource.cache
+C:\Users\maksy\source\repos\HuffmanEnDeCode\HuffmanEnDeCode\obj\Debug\net6.0-windows\HuffmanEnDeCode.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\maksy\source\repos\HuffmanEnDeCode\HuffmanEnDeCode\obj\Debug\net6.0-windows\HuffmanEnDeCode.AssemblyInfoInputs.cache
+C:\Users\maksy\source\repos\HuffmanEnDeCode\HuffmanEnDeCode\obj\Debug\net6.0-windows\HuffmanEnDeCode.AssemblyInfo.cs
+C:\Users\maksy\source\repos\HuffmanEnDeCode\HuffmanEnDeCode\obj\Debug\net6.0-windows\HuffmanEnDeCode.csproj.CoreCompileInputs.cache
+C:\Users\maksy\source\repos\HuffmanEnDeCode\HuffmanEnDeCode\obj\Debug\net6.0-windows\HuffmanEnDeCode.dll
+C:\Users\maksy\source\repos\HuffmanEnDeCode\HuffmanEnDeCode\obj\Debug\net6.0-windows\ref\HuffmanEnDeCode.dll
+C:\Users\maksy\source\repos\HuffmanEnDeCode\HuffmanEnDeCode\obj\Debug\net6.0-windows\HuffmanEnDeCode.pdb
+C:\Users\maksy\source\repos\HuffmanEnDeCode\HuffmanEnDeCode\obj\Debug\net6.0-windows\HuffmanEnDeCode.genruntimeconfig.cache
+C:\Users\maksy\source\repos\HuffmanEnDeCode\HuffmanEnDeCode\bin\Debug\net6.0-windows\Resources\huffman tree.png
+C:\Users\maksy\source\repos\HuffmanEnDeCode\HuffmanEnDeCode\obj\Debug\net6.0-windows\HuffmanEnDeCode.Form2.resources
+C:\Users\maksy\source\repos\HuffmanEnDeCode\HuffmanEnDeCode\obj\Debug\net6.0-windows\HuffmanEnDeCode.Form3.resources
+C:\Users\maksy\source\repos\HuffmanEnDeCode\HuffmanEnDeCode\obj\Debug\net6.0-windows\HuffmanEnDeCode.Form4.resources
+C:\Users\maksy\source\repos\HuffmanEnDeCode\HuffmanEnDeCode\obj\Debug\net6.0-windows\HuffmanEnDeCode.Form5.resources
+C:\Users\maksy\source\repos\HuffmanEnDeCode\HuffmanEnDeCode\obj\Debug\net6.0-windows\refint\HuffmanEnDeCode.dll
