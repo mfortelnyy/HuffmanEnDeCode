@@ -33,7 +33,8 @@ The application is built using C# (.NET Windows Forms) and follows object-orient
 - Form2.cs - Form5.cs – Additional UI Forms for file selection, tree visualization, and result display.
 
 🖥️ How to Run
-	1.	Clone the repository
+	
+ 1.	Clone the repository
 
 git clone https://github.com/yourusername/HuffmanEnDeCode.git
 cd HuffmanEnDeCode
