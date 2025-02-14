@@ -20,17 +20,17 @@ The application is built using C# (.NET Windows Forms) and follows object-orient
 
 🛠️ Technologies Used
 - C# (.NET Framework)
-	•	Windows Forms (WinForms)
-	•	Object-Oriented Programming (OOP)
-	•	Data Structures (Binary Trees, Priority Queues)
-	•	File Handling (OpenFileDialog, Text Processing)
+- Windows Forms (WinForms)
+- Object-Oriented Programming (OOP)
+- Data Structures (Binary Trees, Priority Queues)
+- File Handling (OpenFileDialog, Text Processing)
 
 📂 Project Structure
-	•	Program.cs – Entry point for the application.
-	•	Node.cs – Defines the Huffman Tree Node structure.
-	•	HuffmanTree.cs – Core logic for building the Huffman Tree, sorting, encoding, and decoding.
-	•	Form1.cs – Main UI Form with buttons for encoding and decoding.
-	•	Form2.cs - Form5.cs – Additional UI Forms for file selection, tree visualization, and result display.
+- Program.cs – Entry point for the application.
+- Node.cs – Defines the Huffman Tree Node structure.
+- HuffmanTree.cs – Core logic for building the Huffman Tree, sorting, encoding, and decoding.
+- Form1.cs – Main UI Form with buttons for encoding and decoding.
+- Form2.cs - Form5.cs – Additional UI Forms for file selection, tree visualization, and result display.
 
 🖥️ How to Run
 	1.	Clone the repository
