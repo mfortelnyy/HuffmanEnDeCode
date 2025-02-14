@@ -19,7 +19,7 @@ The application is built using C# (.NET Windows Forms) and follows object-orient
 ✔ Binary Encoding Table: Visualizes the encoding process and how characters are mapped to binary codes.
 
 🛠️ Technologies Used
-	• - C# (.NET Framework)
+- C# (.NET Framework)
 	•	Windows Forms (WinForms)
 	•	Object-Oriented Programming (OOP)
 	•	Data Structures (Binary Trees, Priority Queues)
