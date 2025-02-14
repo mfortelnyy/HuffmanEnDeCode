@@ -1,5 +1,5 @@
-Huffman Encoding & Decoding Application
-A Windows Forms application for encoding and decoding text files using Huffman Coding, a lossless data compression algorithm.
+###**Huffman Encoding & Decoding Application**
+**A Windows Forms application for encoding and decoding text files using Huffman Coding, a lossless data compression algorithm.**
 
 📌 Overview
 This project implements Huffman Coding, an optimal prefix coding algorithm used for data compression. The application provides an interactive graphical interface to encode text into a compressed format and decode it back to its original form.
