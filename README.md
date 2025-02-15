@@ -10,13 +10,13 @@ The application is built using C# (.NET Windows Forms) and follows object-orient
 
 🚀 Features
 
-✔ Encode Text Files: Compress input text using Huffman Coding and generate binary representations.
-✔ Decode Encoded Files: Convert compressed Huffman-encoded text back to its original form.
-✔ Dynamic Huffman Tree Generation: Automatically constructs the Huffman Tree based on character frequency.
-✔ User-Friendly GUI: Developed using Windows Forms for a smooth, interactive experience.
-✔ File Upload & Processing: Users can browse and upload text files for encoding or decoding.
-✔ Character Frequency Analysis: Displays the frequency table and binary codes assigned to each character.
-✔ Binary Encoding Table: Visualizes the encoding process and how characters are mapped to binary codes.
+✔-  Encode Text Files: Compress input text using Huffman Coding and generate binary representations.
+✔-  Decode Encoded Files: Convert compressed Huffman-encoded text back to its original form.
+✔- Dynamic Huffman Tree Generation: Automatically constructs the Huffman Tree based on character frequency.
+✔- User-Friendly GUI: Developed using Windows Forms for a smooth, interactive experience.
+✔- File Upload & Processing: Users can browse and upload text files for encoding or decoding.
+✔- Character Frequency Analysis: Displays the frequency table and binary codes assigned to each character.
+✔- Binary Encoding Table: Visualizes the encoding process and how characters are mapped to binary codes.
 
 🛠️ Technologies Used
 - C# (.NET Framework)
