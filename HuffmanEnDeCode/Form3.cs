@@ -48,6 +48,13 @@ namespace HuffmanEnDeCode
                 textBox1.Text = OFD.FileName;
                 read = true;
                 name = OFD.FileName;
+                string filePath = OFD.FileName;
+                string fileContent = File.ReadAllText(filePath); // Read file contents
+
+                textBox1.Text = fileContent; // Display file content in textbox
+
+                MessageBox.Show("File successfully loaded!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                encode_click(null, null);
                 //MessageBox.Show(read.ToString());
 
 
@@ -71,53 +78,71 @@ namespace HuffmanEnDeCode
             MessageBox.Show(name);
             try
             {
-                if (String.IsNullOrEmpty(name))
+                if (string.IsNullOrEmpty(textBox1.Text))
                 {
-                    MessageBox.Show("Invalid File");
-                    Form1 f1 = new Form1();
-                    this.Close();
-                    f1.Show();
+                    MessageBox.Show("Please upload a file first!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    return;
                 }
+
+                string text = textBox1.Text;
+                HuffmanTree HT = new HuffmanTree();
+
+                HT.build(text);
+                if (HT.root == null)
+                {
+                    MessageBox.Show("Error: Huffman Tree Root is null!", "Encoding Failed", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    return;
+                }
+
                 else
                 {
-                    string text = File.ReadAllText(name);
-                    //int size = text.Length;
-                    HuffmanTree HT = new HuffmanTree();
+                    MessageBox.Show($"Root Node Frequency: {HT.root.f}", "Huffman Tree Root", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
 
-                    HT.build(text);
-                    Node root = HT.root;
-                    HT.printPaths();
-                    //String p = HT.printDictreserve();
-                    textBox2.AppendText(" __________________" + Environment.NewLine);
-                    textBox2.AppendText("| " + "Symbol  |   Code|" + Environment.NewLine);
-                    textBox2.AppendText("-------------------" + Environment.NewLine);
-                   
-                    //Dictionary<char, String> dictionary =HT.dictToString(HT.getDict());
 
-                    //Dictionary<char, String> symchar = new Dictionary<char, String>();
-                    // symchar = HT.CharCodesTable();
-                    //textBox2.Text = Char.ToString(root.s)+size.ToString();
-                    //DataGridView DGV = new DataGridView();
-                    //this.DGV.Columns.Add("Index", "Symbol");
-                    //this.DGV.Columns.Add("Value", "Code");
+                HT.printPaths();
+                Dictionary<char, string> encodingMap = HT.getDict();
 
-                    /*string res = "";
-                    foreach(KeyValuePair<char, String> pair in dictionary)
-                    {
-                      res = res + "Symbol: " + pair.Key +  "        Code:    " + pair.Value + Environment.NewLine;
+                if (encodingMap.Count == 0)
+                {
+                    MessageBox.Show("Error: No encoding generated. Check tree construction.", "Encoding Failed", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    return;
+                }
 
-                               //res = res+"Symbol: "+node.s.ToString()+"         Frequency:  " + node.f.ToString()+"        Code:    "+ node.c +"         Parent Frequency:  " + node.parent.f.ToString() + "       Parent Code:    " + node.parent.c+ "         GrandParent Frequency:  " + node.parent.parent.f.ToString() + "       GrandParent Code:    " + node.parent.parent.c + Environment.NewLine;    
-                   }
+                textBox2.Clear();
+                textBox2.AppendText("Symbol\t|\tCode" + Environment.NewLine);
+                textBox2.AppendText("--------------------" + Environment.NewLine);
 
-                    //res = "Root: " + root.f + "    Root Left: " + root.left.f + "     Root Right: " + root.right.f + "      Root Left Left: " + root.left.left.f; "         Frequency:  " + node.f.ToString() +
-                    //res = HT.printPreorder(root);
-                    */
-                    textBox2.AppendText(HT.printPreorder(root));
+                foreach (var pair in encodingMap)
+                {
+                    textBox2.AppendText($"{pair.Key}\t|\t{pair.Value}" + Environment.NewLine);
+                }
+
+                //Dictionary<char, String> dictionary =HT.dictToString(HT.getDict());
+
+                //Dictionary<char, String> symchar = new Dictionary<char, String>();
+                // symchar = HT.CharCodesTable();
+                //textBox2.Text = Char.ToString(root.s)+size.ToString();
+                //DataGridView DGV = new DataGridView();
+                //this.DGV.Columns.Add("Index", "Symbol");
+                //this.DGV.Columns.Add("Value", "Code");
+
+                /*string res = "";
+                foreach(KeyValuePair<char, String> pair in dictionary)
+                {
+                  res = res + "Symbol: " + pair.Key +  "        Code:    " + pair.Value + Environment.NewLine;
+
+                           //res = res+"Symbol: "+node.s.ToString()+"         Frequency:  " + node.f.ToString()+"        Code:    "+ node.c +"         Parent Frequency:  " + node.parent.f.ToString() + "       Parent Code:    " + node.parent.c+ "         GrandParent Frequency:  " + node.parent.parent.f.ToString() + "       GrandParent Code:    " + node.parent.parent.c + Environment.NewLine;    
+               }
+
+                //res = "Root: " + root.f + "    Root Left: " + root.left.f + "     Root Right: " + root.right.f + "      Root Left Left: " + root.left.left.f; "         Frequency:  " + node.f.ToString() +
+                //res = HT.printPreorder(root);
+                */
+                textBox2.AppendText(HT.printPreorder(HT.root));
                 }
 
 
                 //textBox2.Text = res;
-            }
 
 
 

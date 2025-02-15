@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HuffmanEnDeCode")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5dc9cd759f2cb8b79e56f3a2da03fca4847aafa1")]
 [assembly: System.Reflection.AssemblyProductAttribute("HuffmanEnDeCode")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HuffmanEnDeCode")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

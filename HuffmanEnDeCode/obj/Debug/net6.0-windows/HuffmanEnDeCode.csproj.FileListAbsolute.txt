@@ -20,3 +20,4 @@ C:\Users\maksy\source\repos\HuffmanEnDeCode\HuffmanEnDeCode\obj\Debug\net6.0-win
 C:\Users\maksy\source\repos\HuffmanEnDeCode\HuffmanEnDeCode\obj\Debug\net6.0-windows\HuffmanEnDeCode.Form4.resources
 C:\Users\maksy\source\repos\HuffmanEnDeCode\HuffmanEnDeCode\obj\Debug\net6.0-windows\HuffmanEnDeCode.Form5.resources
 C:\Users\maksy\source\repos\HuffmanEnDeCode\HuffmanEnDeCode\obj\Debug\net6.0-windows\refint\HuffmanEnDeCode.dll
+C:\Users\maksy\source\repos\HuffmanEnDeCode\HuffmanEnDeCode\obj\Debug\net6.0-windows\HuffmanEnDeCode.sourcelink.json
